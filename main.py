@@ -97,3 +97,4 @@ if __name__ == "__main__":
     if not outcome["success"]:
         print("\nRemaining failures:\n")
         print(outcome.get("last_failures", "N/A"))
+
